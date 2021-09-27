@@ -1,0 +1,84 @@
+
+
+
+
+.hitbtn ,.standbtn,.dealbtn{
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+  }
+.hitbtn
+{
+    background-color:royalblue;
+    
+}
+.standbtn{
+    background-color: yellow;
+}
+.dealbtn{
+    background-color: red;
+    
+}
+
+.hitbtn:hover{
+    color:whitesmoke;
+}
+.standbtn:hover{
+    color:whitesmoke;
+}
+.dealbtn:hover{
+    color:whitesmoke;
+}
+
+.container{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.flex-blackjack-row-1,.flex-blackjack-row-2
+{
+    background: url(https://pl.sterlingcdn.com/wp-content/uploads/sites/3/2018/07/blackjack-classic-background.jpg) center;
+    color: white;
+}
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+}
+.flex-blackjack-row-1 image{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+    font-size: larger;
+    border-color: hotpink;
+}
+
+
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
